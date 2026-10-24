@@ -1,0 +1,9 @@
+# Mínimos que necesita la app:
+#   streamlit >= 1.26  -> st.toggle (modo día) y date_input con format
+#   pandas    >= 2.0   -> pd.to_datetime(format="mixed")
+#   plotly    >= 5.15  -> pattern_shape y fillpattern (las tramas)
+# Probado con streamlit 1.66.0, pandas 3.0.5, plotly 7.1.0, numpy 2.5.3
+streamlit>=1.28
+pandas>=2.0
+plotly>=5.15
+numpy>=1.24

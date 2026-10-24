@@ -1,0 +1,14 @@
+# Tema institucional del proyecto.
+# Define cómo pinta Streamlit sus propios controles (barra lateral, tabla,
+# selectores); los colores del dashboard en sí están en app_accelerator.py.
+[theme]
+base = "dark"
+primaryColor = "#DCB0E7"
+backgroundColor = "#002D72"
+secondaryBackgroundColor = "#013A8F"
+textColor = "#F2F5FB"
+
+[server]
+# Solo aplica cuando se corre en la PC: al guardar el .py, la app se
+# actualiza sola. En Streamlit Cloud se ignora.
+runOnSave = true
